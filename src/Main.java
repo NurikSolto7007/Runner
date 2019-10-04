@@ -9,11 +9,11 @@ public class Main {
         Runner r4 = new Runner();
         Runner r5 = new Runner();
 
-         Thread run1 = new Thread(r1,"Runner:1");
-         Thread run2 = new Thread(r2,"Runner:2");
-         Thread run3 = new Thread(r3,"Runner:3");
-         Thread run4 = new Thread(r4,"Runner:4");
-         Thread run5 = new Thread(r5,"Runner:5");
+        final Thread run1 = new Thread(r1,"Runner:1");
+        final Thread run2 = new Thread(r2,"Runner:2");
+        final Thread run3 = new Thread(r3,"Runner:3");
+        final Thread run4 = new Thread(r4,"Runner:4");
+        final Thread run5 = new Thread(r5,"Runner:5");
         r1.start();
         r1.join();
         r2.start();
