@@ -5,6 +5,8 @@ public class Runner extends Thread {
     String r3="Runner:3 ";
     String r4="Runner:4 ";
     String r5="Runner:5 ";
+    public Runner(String name){
+    }
     public void run() {
         try {
             System.out.println(r1+ " Берёт палочку  ");
@@ -40,6 +42,7 @@ public class Runner extends Thread {
             sleep(5000);
 
             System.out.println(r1+"Берёте палочку ");
+
 
         } catch (InterruptedException ie) {
         }
