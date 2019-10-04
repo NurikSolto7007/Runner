@@ -11,35 +11,41 @@ public class Runner extends Thread {
         try {
             System.out.println(r1+ " Берёт палочку  ");
             System.out.println(r1 + " Бежит к " + r2);
-            sleep(5000);
-
+            sleep(5);
+            join();
             System.out.println(r2+"Берёте палочку ");
             System.out.println(r2+"Бежит к " + r3);
-            sleep(5000);
-
+            sleep(5);
+            join();
             System.out.println(r3+"Берёте палочку ");
             System.out.println(r3+"Бежит к " + r4);
-            sleep(5000);
+            sleep(5);
+            join();
 
             System.out.println(r4+"Берёте палочку ");
             System.out.println(r4+"Бежит к " + r5);
-            sleep(5000);
+            sleep(5);
+            join();
 
             System.out.println(r5+"Берёте палочку ");
             System.out.println(r5+"Бежит к " + r4);
-            sleep(5000);
+            sleep(5);
+            join();
 
             System.out.println(r4+"Берёте палочку ");
             System.out.println(r4+"Бежит к " + r3);
-            sleep(5000);
+            sleep(5);
+            join();
 
             System.out.println(r3+"Берёте палочку ");
             System.out.println(r3+"Бежит к " + r2);
-            sleep(5000);
+            sleep(5);
+            join();
 
             System.out.println(r2+"Берёте палочку ");
             System.out.println(r2+"Бежит к " + r1);
-            sleep(5000);
+            sleep(5);
+            join();
 
             System.out.println(r1+"Берёте палочку ");
 
